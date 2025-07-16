@@ -1,0 +1,52 @@
+.container {
+  width: 90%;
+  padding: 2% 0 0 5%;
+}
+.welcomeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.welcomeContainer button {
+  background-color: green;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+}
+
+.formsContainer h1 {
+  text-align: center;
+}
+
+.forms {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.formCard {
+  width: 20%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.formCard h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+.buttonContainer {
+  justify-self: center;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.buttonContainer img {
+  width: 15px;
+}

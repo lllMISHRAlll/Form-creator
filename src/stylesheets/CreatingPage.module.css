@@ -1,0 +1,123 @@
+.mainContainer h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  padding: 50px;
+  border: 1px solid #07152b;
+  width: 70%;
+  margin-left: 10%;
+}
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleContainer img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.fieldLayout {
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.field input {
+  width: 230px;
+  border: none;
+  border-bottom: 1px solid #07152b;
+  margin: 0px 0px 20px 20px;
+}
+
+.field img {
+  width: 25px;
+  padding-left: 10px;
+}
+
+.addInputContainer {
+  text-align: center;
+}
+
+.submitBtn {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.actionBtn {
+  border: 1px solid #3474d2;
+  background-color: white;
+  color: #3474d2;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  font-size: 10px;
+  margin-left: 130px;
+}
+
+.createBtn {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 40px 0px 0px 700px;
+}
+
+.addBtn {
+  border: 1px solid #3474d2;
+  background-color: #3474d2;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.formEditor {
+  width: 250px;
+}
+
+.formEditor h3,
+p {
+  text-align: center;
+}
+
+.formEditor input {
+  width: 270px;
+  border: none;
+  border-bottom: 1px solid #07152b;
+  padding: 5px;
+  margin: 10px 0px;
+}
+
+.section {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.section img {
+  width: 20px;
+  cursor: pointer;
+}
+
+.sectionTitleInput {
+  font-size: 1.2rem;
+  border: none;
+  border-bottom: 1px solid #000;
+}
